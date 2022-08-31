@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Helvetica;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    border-bottom: 2px solid #3b5998;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-bottom: 1em;
+    color: #8b9dc3;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+h3 {
+    border-top:solid 1px #8b9dc3;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 3em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+#svi_komentari {
+    border-top:solid 1px #8b9dc3;
+    padding:2em;
+    margin: 0 15px;
+    background-color: white;
+}
+.komentar {
+    border:solid 1px #8b9dc3;
+    padding:1em;
+    margin-bottom:0.5em;
+    background-color: #dfe3ee;
+    border-radius: 5px;
+}
+.komentar p {
+    margin:0;
+    padding:1em;
+}
+.komentar p:first-child {
+    color: #3b5998;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+#komentar_forma textarea {
+    border:solid 1px #3b5998;
+    border-radius: 5px;
+    width:30%;
+    padding:0.5em;
+    margin-left: 45px;
+    min-height: 70px;
+}
+#komentar_forma input[type="submit"] {
+    background:#3b5998;
+    color:#fff;
+    border:none;
+    padding:0.5em;
+    margin-left: 45px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+nav {
+    background-color: #3b5998;
+    min-height: 60px!important;
+    padding-top: 1px!important;
+    margin: 0!important;
+    font-size: 20px;
+    border-bottom: 1px solid #f7f7f7;
+}
+nav>ul>li {
+    display:inline-block;
+    list-style-type:none;
+}
+nav>ul>li>a {
+    padding:0.5em;
+    color:white;
+    text-decoration:none;
+}
+nav>ul>li>a:hover {
+    background: #8b9dc3;
+    border-radius: 5px;
+}
+
+#odjava {
+    text-align: right;
+    padding-right: 50px;
+    color: white;
+    padding:0.5em;
+    text-decoration:none;
+    margin-left: 70em;
+}
+
+#odjava:hover {
+    background: #8b9dc3;
+    border-radius: 5px;
+}
+
+#sadrzaj-prvi {
+    text-align: center;
+    background-color: #dfe3ee;
+    margin: 1em 10em;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px 0;
+}
